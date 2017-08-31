@@ -4,8 +4,9 @@ services:
 - docker
 
 env:
-- DOCKER_COMPOSE_VERSION=1.4.2
-- IMAGE_NAME=stelzer77/chronograf-armhf
+  global:
+    - DOCKER_COMPOSE_VERSION=1.4.2
+    - IMAGE_NAME=stelzer77/chronograf-armhf
 
 language: bash
 
