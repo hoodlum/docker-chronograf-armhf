@@ -3,7 +3,7 @@ FROM hypriot/rpi-alpine as build-stage
 
 MAINTAINER Soeren Stelzer
 
-ENV VERSION 1.3.7.0
+ENV VERSION 1.3.8.3
 ENV CHRONOGRAF_FILE chronograf-${VERSION}_linux_armhf.tar.gz
 ENV CHRONOGRAF_URL https://dl.influxdata.com/chronograf/releases/${CHRONOGRAF_FILE}
 
